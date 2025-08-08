@@ -29,6 +29,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    compileOnly(project(":stubs"))
+    compileOnly(project(":LaunchCore:stubs"))
     compileOnly(files("libs/minecraft.jar"))
 }
